@@ -2,8 +2,7 @@ import tmxlib
 import sys
 
 if len(sys.argv) < 2:
-    print("usage:", sys.argv[0], "<infile>")
-    print("screenwidth + screenheight are optional and default to 20 and 16 respectively")
+    print("usage:", sys.argv[0], "<infiles>")
     sys.exit(1)
 
 screenwidth, screenheight = 10, 7
