@@ -464,7 +464,7 @@ function backupState() {
 
 document.onkeydown = function(e) {
     if (gameState == State.READ) {
-        gameState = State.STAND;
+        advanceTutorial();
     } else if (gameState == State.DONE) {
         if (e.keyCode == 82) {
             reset();
